@@ -9,9 +9,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1>
-        Shardapeetham
-      </h1>
+      <main className={styles.main}>
+        <div className={styles.headsection} >
+          <h1 className={styles.heading}>Shardapeetham</h1>
+          <img src="/images/logo.png" width="150px" />
+        </div>
+
+        <p className={styles.paragraphtext}>
+          This is some sample text.
+        </p>
+      </main>
     </div>
   )
 }
